@@ -1,0 +1,38 @@
+body {
+  padding: 2rem 0 0 2rem;
+  background-color: wheat;
+}
+
+.bg {
+  background-color: wheat;
+}
+
+#quote-box {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+
+#text {
+  font-size: 4rem;
+  margin: 30px;
+}
+
+#author {
+  font-size: 3rem;
+  text-align: right;
+  margin-right: 50px;
+}
+
+#buttons {
+  position: sticky;
+  padding: auto;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+#web-author {
+  padding-top: 10px;
+}
