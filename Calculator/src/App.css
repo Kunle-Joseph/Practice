@@ -1,0 +1,63 @@
+.Calculator {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "dis dis dis dis"
+    "AC C divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero dot equals";
+}
+.padbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: grey;
+  border: 1px solid white;
+}
+.zero {
+  grid-area: zero;
+}
+.equals {
+  grid-area: equals;
+}
+.dis {
+  grid-area: dis;
+  background-color: #121212;
+  text-align: right;
+}
+.dark-gray {
+  background-color: #333;
+}
+.tomato {
+  background-color: rgb(197, 52, 52);
+}
+.blue {
+  background-color: #5599ff;
+}
+.total {
+  padding: 5px 20px;
+  color: yellow;
+}
+.dis input {
+  color: white;
+  padding: 5px;
+  background-color: black;
+}
+input::placeholder {
+  color: white;
+}
+.padbutton:hover {
+  border: 1px solid black;
+  color: #ccc;
+}
